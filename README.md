@@ -13,3 +13,6 @@
 ##3.学习自己干兴趣的View以及自己觉得有意思的View
 ##4.动画的基本学习
 ##5.framework层对View的基本原理
+##资料大汇总
+[杂七杂八一堆](http://www.jianshu.com/p/a5b1e778744f
+)
