@@ -32,6 +32,11 @@
 <p>1.只能指定文本基线位置；
 <p>2.可以指定每个文字的位置，但必须每个文字的位置都要指定，否则crash，且该方法性能不佳
 <p>3.指定一个路径，根据路径绘制文字
+
+<p> 现在登场的是Path，为了避免没必要的问题，请关闭硬件加速
+<p> 第一组方法：moveTo & setLastPoint & lineTo & close
+<p>第二组方法:addXxx & arcTo,主要在path上添加基本图形
+<p> demo中RadaView就是对save和Path的具体实战
 ###2.1 继承View
 ###2.2 继承ViewGroup
 需要定义ViewGroup，如果对getMeasuredWidth和getWidth分别在何时调用不太清楚，可以看下这个[文章](http://www.jianshu.com/p/a5b1e778744f)
@@ -42,4 +47,4 @@
 ##资料大汇总
 [杂七杂八一堆](http://www.jianshu.com/p/a5b1e778744f
 )<p>
-[android自定义View系列教程](http://www.jianshu.com/p/a5b1e778744f)
+[android自定义View系列教程](http://www.gcssloop.com/customview/CustomViewIndex)
