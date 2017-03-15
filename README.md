@@ -13,7 +13,7 @@
 <p>4.角度和弧度的区别 rad（弧度）&deg（角度） rad=deg\*pi/180
    deg = rad*180/pi  屏幕坐标中角度增大方向是顺时针而数学系则反之
 <p>5.颜色，ARGB（四通道，透明，红，绿，蓝，值从0x00-0xff表示透明到不透明，色值从浅值深）dst表示canvas原有的内容 src表示新的内容
-####自定义View基本流程
+**自定义View基本流程**
 <p> step1: View初始化（构造函数）
 <p> step2: 测量View的大小（onMeasure)
 <p> step3: 确定View大小（onSizeChanged)
@@ -55,14 +55,19 @@
 
 
 
-###2.1 继承View
-###2.2 继承ViewGroup
+<br>**2.1 继承View**
+<br>**2.2 继承ViewGroup**
 需要定义ViewGroup，如果对getMeasuredWidth和getWidth分别在何时调用不太清楚，可以看下这个[文章](http://www.jianshu.com/p/a5b1e778744f)
-###2.3 继承现有的控件View
+<br>**2.3 继承现有的控件View**
+<br>
 ##3.学习自己干兴趣的View以及自己觉得有意思的View
+<br>
 ##4.动画的基本学习
+<br>
 ##5.framework层对View的基本原理
+<br>
 ##资料大汇总
 [杂七杂八一堆](http://www.jianshu.com/p/a5b1e778744f
-)<p>
+)
+<p>
 [android自定义View系列教程](http://www.gcssloop.com/customview/CustomViewIndex)
