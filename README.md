@@ -37,6 +37,24 @@
 <p> 第一组方法：moveTo & setLastPoint & lineTo & close
 <p>第二组方法:addXxx & arcTo,主要在path上添加基本图形
 <p> demo中RadaView就是对save和Path的具体实战
+
+**PathMeasure使用**
+<p>在使用PathMeasure之前，先确定其与一个Path相关联，如果后续对Path进行了更改，需重新调用setpath更新。
+<p>*重要方法*:
+<p> setPath:是PathMeasure与Path关联的重要方法
+<p> isClosed:用于判断Path是否闭合
+<p> getLength用于获取Path的总长度
+<p> getSegment：用于获取Path的一个片段
+<p> nextContour:用于跳转到下一条曲线，如果跳成功则返回true；
+<p> getPosTan:用于获取路径上某个长度的位置以及该位置正切值
+<p> getMatrix:得到某一长度的位置以及该位置的正切值的矩阵
+<p>关于PathMeasure的实践可以参考PathMeasureView和SearchView
+
+
+
+
+
+
 ###2.1 继承View
 ###2.2 继承ViewGroup
 需要定义ViewGroup，如果对getMeasuredWidth和getWidth分别在何时调用不太清楚，可以看下这个[文章](http://www.jianshu.com/p/a5b1e778744f)

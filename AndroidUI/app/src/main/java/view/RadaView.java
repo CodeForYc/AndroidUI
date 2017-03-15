@@ -9,7 +9,7 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by yingcheng on 17/3/5.
+ * Created by yc on 17/3/5.
  */
 
 public class RadaView extends View{
