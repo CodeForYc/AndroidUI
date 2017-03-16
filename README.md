@@ -52,6 +52,19 @@
 <p> getMatrix:得到某一长度的位置以及该位置的正切值的矩阵
 <p>关于PathMeasure的实践可以参考PathMeasureView和SearchView
 
+<p>**Matrix的学习**
+<p>首先明白一点就是内容坐标和屏幕坐标相差一个通知栏+标题栏的距离
+也就是说通知栏高度为20，标题栏高度为40的话，那么内容的左上角坐标为（0，60）
+<p>Matrix的四个基本变换：translate，scale，rotate，skew
+<p>重点理解像素点坐标列矩阵以及元矩阵
+<p>理解pre，post，set三类操作前置的意义 pre矩阵右乘 M *T post矩阵左乘 T *M,在图像处理中，越靠近右边的矩阵越先执行，所以给人就是post后执行，pre先执行
+<p>重要方法：toShortString(),reset & set,setValues(大于9个数据）
+<p>特殊方法：setPolyToPoly & setRectToRect不要小瞧这个东西，用好了可以得到意想不到的效果
+<p> Matrix使用技巧：
+<p>1.获取View在屏幕上的绝对位置，canvas.getMatrix(loc)当然你通过getLocationOnScreen也可以
+<p>2.利用Matrix的setPolyToPoly到达折叠效果，可以参考demo PolyView 也可以参考[大神博文](http://blog.csdn.net/lmj623565791/article/details/44278417)
+
+
 
 
 
@@ -73,3 +86,5 @@
 )
 <p>
 [android自定义View系列教程](http://www.gcssloop.com/customview/CustomViewIndex)
+<p>
+[技术成长](https://yedaxia.github.io/Android-Learning-Team/)
