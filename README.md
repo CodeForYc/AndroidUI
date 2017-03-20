@@ -88,3 +88,5 @@
 [android自定义View系列教程](http://www.gcssloop.com/customview/CustomViewIndex)
 <p>
 [技术成长](https://yedaxia.github.io/Android-Learning-Team/)
+<p>
+[混淆手册](https://yq.aliyun.com/articles/62980?utm_campaign=wenzhang&utm_medium=article&utm_source=QQ-qun&2017314&utm_content=m_13399)

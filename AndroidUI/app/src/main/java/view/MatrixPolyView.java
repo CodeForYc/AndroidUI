@@ -35,7 +35,7 @@ public class MatrixPolyView extends View {
     }
     private void init(){
         BitmapFactory.Options options = new BitmapFactory.Options();
-        options.inSampleSize = 1;
+        options.inSampleSize = 2;
         mBitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.beauty,options);
         mMatrix = new Matrix();
         float []src ={
